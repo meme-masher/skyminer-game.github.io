@@ -1,0 +1,28 @@
+body {
+    font-family: monospace;
+    background: black;
+}
+a {
+    background: black;
+    border: 1px solid lime;
+    color: lime;
+    text-decoration: none;
+    padding: 1px;
+}
+a:active {
+    background: #070;
+}
+#repo {
+    color: black;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: none;
+}
+#strip {
+    background: lime;
+    font-size: 16px;
+}
+#action, #save {
+    color: lime;
+}
