@@ -14,14 +14,29 @@
     </head>
     <body>
         <div id="strip">Space Agency — $<span id="money"></span>; <span id="xp"></span>XP</div><br>
-        <a href="javascript:sendMission()" id="sendMission">Send Mission to Asteroid ($1 000 000)</a><br><br>
-        <a href="https://github.com/skyminer-game/skyminer-game.github.io/blob/master/README.md" target="_blank">Help</a>
-        <a href="javascript:save()">Save</a>
-        <a href="javascript:load()">Load</a>
-        <span id="save"></span>
-        <br><br>
-        <span id="action"></span>
+        
+        <div class="interface">
+            <a href="javascript:sendMission()" id="sendMission">Send Mission to Asteroid ($<span id="launchCost"></span>)</a><br><br>
+            <a href="https://github.com/skyminer-game/skyminer-game.github.io/blob/master/README.md" target="_blank">README First</a>
+            <a href="javascript:save()">Save</a>
+            <a href="javascript:load()">Load</a>
+            <a href="javascript:dev()">Secret Dev Tool (DON'T TOUCH)</a>
+            <span id="save"></span>
+            <br><br>
+            <span id="action">...</span>
+        </div>
+        <br>
+        
+        <div class="interface">
+            SHOP
+            <br><br>
+            <a id="drill" href="javascript:drill()">Drill Cost — Increase resource value.</a>
+            <span id="drilltooltip">($<span id="drillCost"></span>, +$<span id="drillCost2"></span> launch costs)</span>
+            <br><br>
+            <span id="action2">...</span>
+        </div>
+        
         <br><br><br>
-        <div id="strip"><a id="repo" href="https://github.com/skyminer-game/skyminer-game.github.io" target="_blank">SKYMINER — v0.01 pre-alpha</a> — Created by -ThePixelGuy- on 2017/02/02.</div>
+        <div id="strip"><a id="repo" href="https://github.com/skyminer-game/skyminer-game.github.io" target="_blank">SKYMINER — v0.02 pre-alpha</a> — Created by -ThePixelGuy- on 2017/02/05. </div>
     </body>
 </html>
