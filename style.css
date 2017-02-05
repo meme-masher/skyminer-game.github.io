@@ -4,13 +4,21 @@ body {
 }
 a {
     background: black;
-    border: 1px solid lime;
     color: lime;
+    border: 1px solid lime;
     text-decoration: none;
     padding: 1px;
 }
 a:active {
     background: #070;
+}
+a:nth-of-type(5) {
+    display: none;
+}
+.interface {
+    border: 1px solid lime;
+    padding: 10px;
+    color: lime;
 }
 #repo {
     color: black;
@@ -25,4 +33,10 @@ a:active {
 }
 #action, #save {
     color: lime;
+}
+#drilltooltip, #drill {
+    visibility: hidden;
+}
+#drill:hover + #drilltooltip {
+    visibility: visible;
 }
