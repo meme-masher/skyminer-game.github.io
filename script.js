@@ -50,7 +50,7 @@ function drill() {
         Save.money = Save.money - Save.drillCost;
         Save.drillCost = Math.floor(Save.drillCost * 1.1);
         Save.launchCost = Math.floor(Save.launchCost * 1.1);
-        Save.oreValue = Math.floor(Save.oreValue * 1.1);
+        Save.oreValue = Math.floor(Save.oreValue * 1.5);
     } else {
         document.getElementById("action2").innerHTML = "You do not have enough money.";
         setTimeout(function() {
